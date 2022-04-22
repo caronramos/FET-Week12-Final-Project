@@ -68,7 +68,7 @@ function saveEditParticipantModal() {
 
     participant.name = $("#participant-name-input").val();
     participant.level = $("#participant-level-input").val();
-    participant.price = $("#participant-fee-input").val();
+    participant.fee = $("#participant-fee-input").val();
 
     editParticipantModal.hide();
 
