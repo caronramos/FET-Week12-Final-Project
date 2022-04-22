@@ -8,6 +8,7 @@ Add the URL for this week’s repository to this document where instructed and s
 Coding Steps:
 1. Create a full CRUD application of your choice. If you can use an existing API, use AJAX to interact with it. 
    However, you do not have to use an API. 
+   
    If you do not use an API, store the entities you will create, read, update, and delete in an array.
     a. Application should have at least 1 entity per team member
     b. Use a form to add new entities
