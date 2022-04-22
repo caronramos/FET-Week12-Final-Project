@@ -52,7 +52,7 @@ function openEditParticipantModal(id) {
 
     $("#edit-participant-modal-title").text(`Edit ${participant.name}`)
     $("#participant-name-input").val(participant.name);
-    $("#participa t-level-input").val(participant.level);
+    $("#participant-level-input").val(participant.level);
     $("#participant-fee-input").val(participant.fee);
 
     editParticipantModal.show();
