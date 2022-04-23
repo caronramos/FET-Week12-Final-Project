@@ -1,27 +1,11 @@
-const $participantsContainer = $("#participants-container")
-
-const participantsList = [
+const participants = [
     {
-        id: 0,
-        name: "Caron",
-        description: "First player",
-        fee: 2.50
-    },
-    {
-        id: 0,
-        name: "Roanne",
-        description: "Second player",
-        fee: 2.00
-    },
-    {
-        id: 1,
-        name: "Nancy",
-        description: "Third player",
-        fee: 1.50
-
+        id: 3,
+        name: "Jane Doe",
+        level: "Beginner",
+        fee: 25
     }
 ];
-
 
 $(() => {
     renderParticipants();
@@ -57,9 +41,9 @@ function openEditParticipantModal(id) {
     if(!participant) {
         participant = {
             id: nextParticipantId,
-            name: "New Participant",
-            level: "Advanced",
-            fee: 30
+            name: [],
+            level: [],
+            fee: []
         }
         nextParticipantId++;
     }

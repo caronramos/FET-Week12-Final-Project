@@ -6,22 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fundraising - Gaming Tournament</title>
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="style.css" />
 </head>
-<body>
-    <div class="container mt-3">
-        <div id="new-participant" class="jumbotron">
-            <h2>Participant Name</h2>
-            <input type="text" id="new-participant-name" class="form-control"> <br>
-            <button id="create-new-participant" class="btn btn-primary form-control">Create</button>
-        </div>
-        <br>
-        
+<body class="container">
+    <h1>Fundraising - Gaming Tournament</h1>
+    <div class="container mt-3">    
         <div class="row mb-3">
+            
             <div class="col">
-                <h3>Fundraising - Gaming Tournament</h3>
-            </div>
-            <div class="col">
-                <button class="btn btn-success float-end" onclick="openEditParticipantModal()">Create</button>
+                <button class="btn btn-success text-center" onclick="openEditParticipantModal()">Create New Participant</button>
             </div>
         </div>
         <div class="row">
@@ -29,9 +22,9 @@
                 <table class="table">
                     <thead>
                         <tr>
-                            <th>Name</th>
-                            <th>Level</th>
-                            <th>Fee</th>
+                            <th>NAME</th>
+                            <th>LEVEL</th>
+                            <th>FEE</th>
                             <th></th>
                         </tr>
                     </thead>
