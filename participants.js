@@ -1,11 +1,27 @@
-const participants = [
+const $participantsContainer = $("#participants-container")
+
+const participantsList = [
     {
-        id: 3,
-        name: "Jane Doe",
-        level: "Beginner",
-        fee: 25
+        id: 0,
+        name: "Caron",
+        description: "First player",
+        fee: 2.50
+    },
+    {
+        id: 0,
+        name: "Roanne",
+        description: "Second player",
+        fee: 2.00
+    },
+    {
+        id: 1,
+        name: "Nancy",
+        description: "Third player",
+        fee: 1.50
+
     }
 ];
+
 
 $(() => {
     renderParticipants();
